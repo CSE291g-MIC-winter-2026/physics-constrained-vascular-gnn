@@ -4,4 +4,6 @@ The data can be downloaded [here](https://drive.google.com/drive/folders/1IByz6k
 
 2
 Train a GNN
+'''
 python network1d/training.py
+'''
