@@ -75,17 +75,13 @@ Each `.grph` file is a DGL graph with node features including pressure, flowrate
 
 ## Training
 
-### Baseline (data loss only)
+
 
 ```bash
 python network1d/training.py
 ```
 
-### Physics-Constrained (Poiseuille + Continuity)
 
-```bash
-python network1d/training_physical.py
-```
 
 Key hyperparameters (editable at the top of each training script):
 
